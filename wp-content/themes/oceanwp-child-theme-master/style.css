@@ -9,3 +9,28 @@ Version: 1.0
 */
 
 /* Parent stylesheet should be loaded from functions.php not using @import */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* Import de la font Roboto depuis Google Fonts et on l'applique sur tous les éléments de la page */
+body * {
+   font-family: 'Syne', sans-serif;
+}
+
+#menu-item-24{
+    display: inline-block;
+    padding: 10px 25px;
+    background-color:#DC9E96 ;
+    text-align: center;
+}
+
+#menu-item-25{
+    display: inline-block;
+    padding: 10px 25px;
+    text-align: center;
+}
+
+.text-wrap{
+    font-family: "syne";
+    font-weight: 700;
+    font-size: 16px;
+}
