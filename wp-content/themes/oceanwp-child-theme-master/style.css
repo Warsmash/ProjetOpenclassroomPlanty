@@ -34,3 +34,7 @@ body * {
     font-weight: 700;
     font-size: 16px;
 }
+
+ul#menu-header > li:last-child > a {
+    color: white;
+}
