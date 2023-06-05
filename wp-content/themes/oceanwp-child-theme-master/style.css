@@ -38,3 +38,74 @@ body * {
 ul#menu-header > li:last-child > a {
     color: white;
 }
+
+
+#wpforms-submit-120{
+    background-color: #E0B8B4;
+
+}
+
+div.wpforms-submit-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+#wpforms-120-field_1{
+    max-width: 100%;
+}
+
+#wpforms-120-field_2{
+    max-width: 100%;
+}
+
+#wpforms-120-field_3{
+    position:relative;
+    z-index: 1;
+    
+}
+
+
+
+#formulaire-responsive {
+	max-width:600px /*-- à modifier en fonction de la largeur désirée --*/;
+	margin:0 auto;
+        width:100%;
+}
+.rang-form {
+	width: 100%;
+}
+.demi-colonne, .colonne {
+	float: left;
+	position: relative;
+	padding: 0.65rem;
+	width:100%;
+	-webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box
+}
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.colonne p {
+    display: flex;
+    justify-content: center;
+}
+
+
+#site-footer{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/**---------------- Media query ----------------**/
+@media only screen and (min-width: 48em) { 
+	.demi-colonne {
+		width: 50%;
+	}
+}
